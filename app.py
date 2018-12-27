@@ -45,5 +45,7 @@ def hello_world():
 
 
 if __name__ == '__main__':
-    app.debug = True
-    app.run()
+    #app.debug = True
+    #app.host = '0.0.0.0'
+    #app.port = 8090
+    app.run(port=8080, host='0.0.0.0')
