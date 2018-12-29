@@ -11,7 +11,7 @@ q = Auth(access_key, secret_key)
 # 要上传的空间
 bucket_name = 'xfysjxcx'
 # 上传到七牛后保存的文件名
-key = 'qrcode/images/' + str(uuid.uuid1())
+
 
 
 # 生成上传 Token，可以指定过期时间等
@@ -19,6 +19,7 @@ key = 'qrcode/images/' + str(uuid.uuid1())
 
 # 要上传文件的本地路径
 def uploader(url):
+    key = 'qrcode/images/' + str(uuid.uuid1())
     localfile = url
     fullname = key + '.' + url.split('.')[-1]
     print(type)

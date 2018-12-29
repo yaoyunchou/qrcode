@@ -7,6 +7,7 @@ import utils.qiniu
 app = Flask(__name__)
 
 root = os.getcwd()
+print(root)
 @app.route('/', methods=['POST', 'GET'])
 def hello_world():
     if request.method == 'GET':
@@ -21,10 +22,10 @@ def hello_world():
         filename = secure_filename(f.filename)
         filetype = f.content_type
         f.save(root+'/static/images/' + filename)
-
+        print(root+'/static/images/' + filename)
         myqr.run(
             words='http://www.baidu.com',
-            version=10,
+            version=15,
             level='H',
             picture=root+'/static/images/' + filename,
             colorized=True,

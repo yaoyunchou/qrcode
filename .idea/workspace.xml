@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="347bb76f-07c8-4a0f-bcab-09452ec9306d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/qiniu.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/qiniu.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,15 +16,15 @@
     <SUITE FILE_PATH="coverage/untitled$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1545793518868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/demo$Flask_____web_demo_app_py_.coverage" NAME="Flask (../web-demo/app.py) Coverage Results" MODIFIED="1545819198288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/demo$web_demo.coverage" NAME="web-demo Coverage Results" MODIFIED="1545891178108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/demo$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1545915802932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/demo$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1545922481337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+            <state relative-caret-position="268">
+              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -39,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/qiniu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="285">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
               <folding>
                 <element signature="e#39#77#0" expanded="true" />
               </folding>
@@ -51,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/anaconda3/lib/python3.7/site-packages/flask/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="12195">
               <caret line="842" column="33" selection-start-line="842" selection-start-column="29" selection-end-line="842" selection-end-column="33" />
             </state>
           </provider>
@@ -60,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/anaconda3/lib/python3.7/site-packages/flask/cli.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
+            <state relative-caret-position="3435">
               <caret line="248" selection-start-line="248" selection-end-line="248" />
             </state>
           </provider>
@@ -110,11 +111,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="18" />
-    <option name="y" value="41" />
-    <option name="width" value="1404" />
-    <option name="height" value="802" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -122,6 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,7 +143,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -430,7 +429,6 @@
       <list>
         <item itemvalue="Flask server.Flask (app.py)" />
         <item itemvalue="Python.qiniu.upload" />
-        <item itemvalue="Flask server.Flask (../web-demo/app.py)" />
       </list>
     </recent_temporary>
   </component>
@@ -447,16 +445,18 @@
       <workItem from="1545793293003" duration="699000" />
       <workItem from="1545808360539" duration="6263000" />
       <workItem from="1545830675132" duration="15132000" />
+      <workItem from="1545922189577" duration="429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22094000" />
+    <option name="totallyTimeSpent" value="22523000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24391988" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24749643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -487,22 +487,22 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/app.py</url>
-          <line>36</line>
+          <line>37</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/utils/qiniu.py</url>
-          <line>21</line>
+          <line>22</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/utils/qiniu.py</url>
-          <line>27</line>
+          <line>28</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/app.py</url>
-          <line>39</line>
+          <line>40</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
@@ -537,6 +537,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/.qiniu_pythonsdk_hostscache.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/wxb2d970f22a47cea1.o6zAJs6jSzjgN28cC3QA42-XpyAs.stBwtN2hdDjT0412ea0f2719ef93b1e1938ef792392e.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.qiniu_pythonsdk_hostscache.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/anaconda3/lib/python3.7/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12195">
+          <caret line="842" column="33" selection-start-line="842" selection-start-column="29" selection-end-line="842" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/anaconda3/lib/python3.7/site-packages/flask/cli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3435">
+          <caret line="248" selection-start-line="248" selection-end-line="248" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/MyQR/myqr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -547,43 +570,20 @@
     <entry file="file://$PROJECT_DIR$/router.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file:///usr/local/anaconda3/lib/python3.7/site-packages/flask/cli.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="248" selection-start-line="248" selection-end-line="248" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/.qiniu_pythonsdk_hostscache.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/wxb2d970f22a47cea1.o6zAJs6jSzjgN28cC3QA42-XpyAs.stBwtN2hdDjT0412ea0f2719ef93b1e1938ef792392e.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/qiniu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="285">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding>
             <element signature="e#39#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.qiniu_pythonsdk_hostscache.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/local/anaconda3/lib/python3.7/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="842" column="33" selection-start-line="842" selection-start-column="29" selection-end-line="842" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+        <state relative-caret-position="268">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
